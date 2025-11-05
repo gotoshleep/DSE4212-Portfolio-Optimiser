@@ -6,7 +6,7 @@ To address these limitations, this project investigates machine learning–based
 
 ---
 
-## 🧠 Methodology Overview
+## Methodology Overview
 
 ### Benchmark & Extensions
 - **Baseline:** Markowitz optimization using historical mean returns  
@@ -18,7 +18,7 @@ To address these limitations, this project investigates machine learning–based
 
 ---
 
-## 📊 Evaluation
+## Evaluation
 
 - **Forecasting Accuracy:** Measured using **Root Mean Square Error (RMSE)** between predicted and realized returns  
 - **Backtesting Setup:**  
@@ -32,22 +32,22 @@ To address these limitations, this project investigates machine learning–based
 
 ---
 
-## 🧪 Stress Testing
+## Stress Testing
 
 A **stress test** is conducted during the **COVID-19 period (20 February 2020 to 29 December 2020)**, a phase of extreme market volatility, to assess the **robustness and resilience** of each portfolio construction method under adverse market conditions.
 
 ---
 
-## 🎯 Objective
+## Objective
 
 This project aims to identify which data-driven or machine learning strategies provide the **most robust and efficient portfolio construction** improvements over the **traditional mean–variance approach**.
 
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 This section explains how to set up the environment to run the project on **macOS** and **Windows**.
 
-### 1️⃣ Prerequisites
+### Prerequisites
 
 - **Python 3.9+**
 - **Git**
@@ -56,7 +56,7 @@ This section explains how to set up the environment to run the project on **macO
 
 ---
 
-### 🧰 macOS Setup
+### macOS Setup
 
 ```bash
 # 1. Clone the repository
@@ -75,7 +75,7 @@ pip install -r requirements.txt
 
 ```
 
-### 🪟 macOS Setup
+### macOS Setup
 ```bash
 # 1. Clone the repository
 git clone https://github.com/gotoshleep/DSE4212-Portfolio-Optimiser.git
@@ -91,7 +91,7 @@ pip install --upgrade pip
 # 4. Install required libraries
 pip install -r requirements.txt
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 This repository contains all scripts and notebooks required for **data preparation**, **feature engineering**, and **portfolio optimization modeling**.  
 Follow the steps below to reproduce the workflow from raw data to model evaluation.
@@ -100,7 +100,7 @@ Follow the steps below to reproduce the workflow from raw data to model evaluati
 ```
 
 ## Guide to running the files:
-### 🧹 Step 1: Data Cleaning and Preparation
+### Step 1: Data Cleaning and Preparation
 
 **Notebook:**  
 `Data prep and EDA/data_cleaning.ipynb`
@@ -118,7 +118,7 @@ Follow the steps below to reproduce the workflow from raw data to model evaluati
 
 ---
 
-### 🔍 Step 2: Exploratory Data Analysis (EDA)
+### Step 2: Exploratory Data Analysis (EDA)
 
 **Notebook:**  
 `Data prep and EDA/EDA.ipynb`
@@ -129,7 +129,7 @@ Follow the steps below to reproduce the workflow from raw data to model evaluati
 
 ---
 
-### 🤖 Step 3: Model Training and Portfolio Optimization
+### Step 3: Model Training and Portfolio Optimization
 
 All model notebooks are stored under the `Models/` folder.
 
@@ -146,7 +146,7 @@ Each model notebook:
 
 ---
 
-### 📈 Step 4: Evaluation and Comparison
+### Step 4: Evaluation and Comparison
 
 After all models are run:
 - Compare results across models (Markowitz vs Risk-based vs. ML-based approaches).
@@ -154,7 +154,7 @@ After all models are run:
 
 ---
 
-### 🧩 Recommended Execution Order
+### Recommended Execution Order
 
 1. `Data prep and EDA/data_cleaning.ipynb`  
 2. `Data prep and EDA/EDA.ipynb`  
