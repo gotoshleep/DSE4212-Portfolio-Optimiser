@@ -75,7 +75,7 @@ pip install -r requirements.txt
 
 ```
 
-### macOS Setup
+### Windows Setup
 ```bash
 # 1. Clone the repository
 git clone https://github.com/gotoshleep/DSE4212-Portfolio-Optimiser.git
