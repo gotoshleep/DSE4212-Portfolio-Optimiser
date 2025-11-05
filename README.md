@@ -135,8 +135,8 @@ All model notebooks are stored under the `Models/` folder.
 
 | Notebook | Description |
 |-----------|--------------|
-| `benchmark_w_regularisation.ipynb` | Implements the **classical Markowitz model** and regularized extensions (Ridge, Lasso, Elastic Net) for return estimation. |
-| `lasso_ridge_en.ipynb` | Compares **Lasso, Ridge, and Elastic Net regressions** for forecasting one-month-ahead returns. |
+| `benchmark_w_regularisation.ipynb` | Implements the **classical Markowitz model**, regularized extensions (Ridge, Lasso, Elastic Net) and risk based portfolios for return estimation. |
+| `lasso_ridge_en.ipynb` | Implements **Lasso, Ridge, and Elastic Net regressions** for forecasting one-month-ahead returns. |
 | `xgboost.ipynb` | Implements an **XGBoost-based model** for predicting future returns and constructing optimized portfolios. |
 
 Each model notebook:
