@@ -91,13 +91,12 @@ pip install --upgrade pip
 # 4. Install required libraries
 pip install -r requirements.txt
 
+---
+```
 ## How to Run the Project
 
 This repository contains all scripts and notebooks required for **data preparation**, **feature engineering**, and **portfolio optimization modeling**.  
 Follow the steps below to reproduce the workflow from raw data to model evaluation.
-
----
-```
 
 ## Guide to running the files:
 ### Step 1: Data Cleaning and Preparation
