@@ -20,7 +20,6 @@ To address these limitations, this project investigates machine learning–based
 
 ## 📊 Evaluation
 
-- **Forecasting Accuracy:** Measured using **Root Mean Square Error (RMSE)** between predicted and realized returns  
 - **Backtesting Setup:**  
   - Initial capital: **USD 1,000,000**  
   - Rebalanced monthly  
@@ -90,3 +89,5 @@ pip install --upgrade pip
 
 # 4. Install required libraries
 pip install -r requirements.txt
+
+
